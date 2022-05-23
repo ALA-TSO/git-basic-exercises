@@ -1,0 +1,370 @@
+    1  ls
+    2  ls /data
+    3  ls /documents
+    4  ls /downloads
+    5  ls /Downloads
+    6  ls /etc/perl
+    7  ls /Videos
+    8  ls /
+    9  pwd
+   10  mkdr Learning_unix
+   11  ls
+   12  git log
+   13  git status
+   14  ls
+   15  cd home
+   16  cd $home
+   17  man ls
+   18  mkdir git-basic-exercises
+   19  pwd
+   20  cd programs\git
+   21  cd git
+   22  cd desktop
+   23  git status
+   24  git log
+   25  cd d
+   26  q
+   27  mrdir git-basic-exercises
+   28  pwd
+   29  cd c
+   30  mrdir git-basic-exercises
+   31  :q
+   32  git config --global user.name "Sanele"
+   33  git config -- global user.email "meshack839@gmail.com"
+   34  git config --global user.email "meshack839@gmail.com"
+   35  ls
+   36  git init
+   37  git log
+   38  .git
+   39  cd c:/
+   40  cd ..
+   41  cd ..
+   42  ls -l
+   43  :q
+   44   cd c
+   45  q
+   46  :q
+   47  exit
+   48  cd d
+   49  git log
+   50    pwd
+   51  cd git-basic-exercises/
+   52  git status 
+   53  git log
+   54  git checkout history 
+   55  git log
+   56  git checkout milkshake-flavours 
+   57  git log
+   58  git checkout master 
+   59  git checkout history 
+   60  git log
+   61  ls
+   62     
+   63  git checkout master 
+   64  git log
+   65  git reset HEAD-1
+   66  git log
+   67  git status 
+   68  git reset HEAD~1
+   69  git log
+   70  git status 
+   71  git restore READ.md
+   72  git restore README.md
+   73  git status
+   74  git checkout milkshake-flavours 
+   75  ls
+   76  git log
+   77  nano README.md 
+   78  git status 
+   79  git add README.md 
+   80  git commit "random readme changes"
+   81  git commit -m "random readme changes"
+   82  ls
+   83  git log
+   84  git checkout history 
+   85  ls
+   86  git log
+   87  git checkout master 
+   88  git log
+   89  git merge milkshake-flavours 
+   90  ls
+   91  git log
+   92  git merge history 
+   93  git status 
+   94  git add README.md 
+   95  git merge history 
+   96  git status 
+   97  git commit 
+   98  git status 
+   99  ls
+  100  git log
+  101  git merge history 
+  102  git checkout history 
+  103  git log
+  104  git checkout milkshake-flavours 
+  105  git log
+  106  git checkout history or
+  107  git checkout main
+  108  git checkout master 
+  109  git checkout history
+  110  git merge master 
+  111  git log
+  112  git checkout master 
+  113  git log
+  114  git remote add origin https://github.com/ALA-TSO/git-basic-exercises.git
+  115  git branch -M main
+  116  git push -u origin main
+  117  git remote add origin https://github.com/ALA-TSO/git-basic-exercises.git
+  118  git branch -M main
+  119  git push -u origin main
+  120  git checkout milkshake-flavours 
+  121  git remote add origin https://github.com/ALA-TSO/git-basic-exercises.git
+  122  git branch -u origin/main 
+  123  git status
+  124  git push -u origin main   
+  125  git push -u origin master
+  126  cd ..
+  127  git checkout history
+  128  cd git-basic-exercises/
+  129  git checkout history
+  130  git push -u origin main   
+  131  git push -u origin main   
+  132  git push -u origin master
+  133  git branch -M main
+  134  git push -u origin master
+  135  git push -u origin master/history
+  136  git push -u origin main/history
+  137  git push -u origin milkshake-flavours 
+  138  git push -u origin history.txt
+  139  git push -u origin history
+  140  git checkout history
+  141  cd history.txt 
+  142  cd history
+  143  git checkout history
+  144  git checkout master
+  145  git log
+  146  cd ../
+  147  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  148  cd a-repo-to-clone/
+  149  git log
+  150  git branch 
+  151  git branch -a
+  152  git checkout a-branch-with-a-few-commits
+  153  cd a-repo-to-clone/
+  154  cd ../
+  155  cd a-repo-to-clone/
+  156  cd a-repo
+  157  cd 
+  158  cd a-repo-to-clone
+  159  git remote -v
+  160  cd ../
+  161  cd project/git-basic-exercises
+  162  git branch -a
+  163  git branch project/git-basic-exercises
+  164  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  165  cd a-repo-to-clone
+  166  git remote -v
+  167  git checkout main
+  168  git branch project/git-basic-exercises
+  169  git log
+  170  cd project/git-basic-exercises
+  171  cd ../
+  172  cd project/git-basic-exercises
+  173  cd project/git-basic-exercises
+  174  cd project/git-basic-exercises
+  175  cd a-repo-to-clone
+  176  git checkout project/git-basic-exercises 
+  177  git log 
+  178  cd 
+  179  d
+  180  cd d
+  181  cd r
+  182  cd git-basic-exercises
+  183  pwd
+  184  cd
+  185  cd ..
+  186  cd ../..
+  187  cd d
+  188  cd git-basic-exercises
+  189  git log 
+  190  cd ..
+  191  mkdir this-will-be-anaother-repo
+  192  cd this-will-be-anaother-repo
+  193  git init
+  194  touch README.md
+  195  git status 
+  196  git add README.md
+  197  git status 
+  198  git commit .
+  199  cd git-basic-exercises
+  200  cd ..
+  201  cd git-basic-exercises
+  202  git log 
+  203  touch ignore-me.db
+  204  git status 
+  205  nano .gitignore
+  206  git status 
+  207  mkdir large-directory-that-shall-be-local-only
+  208  cd large-directory-that-shall-be-local-only
+  209  nano README.md
+  210  cd ...
+  211  cd ..
+  212  git status 
+  213  nano .gitignore 
+  214  git status 
+  215  nano .gitignore 
+  216  git status 
+  217  nano .gitignore 
+  218  git add .gitignore 
+  219  git commit -m "added .gitignore"
+  220  git status
+  221  nano .gitignore 
+  222  git status 
+  223  git push -u origin git-basic-exercises
+  224  git push -u origin this-will-be-another-repo
+  225  git push -u origin a-repo-to-clone
+  226  cd ..
+  227  git push -u origin a-repo-to-clone
+  228  git push -u origin this-will-be-another-repo
+  229  git push -m origin a-repo-to-clone
+  230  cd a-repo-to-clone/
+  231  git push -u origin this-will-be-another-repo
+  232  git push -u origin this-will-be-another-repo
+  233  cd a-repo-to-clone
+  234  git push -u origin a-repo-to-clone
+  235  cd ..
+  236  git push -u origin a-repo-to-clone
+  237  cd git-basic-exercises
+  238  git push -u origin a-repo-to-clone
+  239  git push -u origin this-will-be-another-repo
+  240  git push -u origin this-will-be-another-repo
+  241  git checkout a-repo-to-clone
+  242  cd a-repo-to-clone
+  243  cd ..
+  244  cd a-repo-to-clone/
+  245  git push -u origin main 
+  246  git push -u origin git-basic-exercises
+  247  git remote add origin https://github.com/ALA-TSO/git-basic-exercises.git
+  248  git branch -M main
+  249  git push -u origin main
+  250  git commit .
+  251  git status
+  252  cd ..
+  253  cd a-repo-to-clone
+  254  git fetch 
+  255  git pull
+  256  git push -u origin main
+  257  cd ..
+  258  cd ../..
+  259  cd d
+  260  git push -u origin main
+  261  cd a-repo-to-clone
+  262  git push -u origin main
+  263  cd ../..
+  264  cd r
+  265  mkdir level-zero-coding
+  266  cd level-zero-coding
+  267  nano level_zero_coding_challenges.py
+  268  git status 
+  269  cd ../..
+  270  cd d
+  271  cd ../..
+  272  cd d
+  273  cd ..
+  274  cd d
+  275  ls
+  276  cd git-basic-exercises
+  277  git checkout this-will-be-anaother-repo
+  278  cd this-will-be-anaother-repo
+  279  cd ..
+  280  cd this-will-be-anaother-repo
+  281  cd ..
+  282  cd this-will-be-anaother-repo
+  283  git init
+  284  touch README.md
+  285  git status 
+  286  git commit
+  287  ls
+  288  cd ..
+  289  cd git-basic-exercises
+  290  git log
+  291  git checkout project/git-basic-exercises
+  292  git branch project/git-basic-exercises
+  293  git checkout project/git-basic-exercises
+  294  git log
+  295  cd ..
+  296  cd git-basic-exercises
+  297  git checkout git-basic-exercises
+  298  git checkout milkshake-flavours 
+  299  git push
+  300  git checkout large-directory-that-shall-be-local-only/
+  301  git checkout large-directory-that-shall-be-local-only
+  302  cd ..
+  303  cd large-directory-that-shall-be-local-only
+  304  git checkout milkshake-flavours 
+  305  git checkout git-basic-exercises
+  306  cd git-basic-exercises
+  307  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  308  cd a-repo-to-clone
+  309  git branch -a
+  310  git checkout a-branch-with-a-few-commits 
+  311  git remote -v
+  312  git push
+  313  cd git-basic-exercises
+  314  cd ..
+  315  cd ..
+  316  cd desktop
+  317  cd ..
+  318  cd desktop
+  319  cd documents
+  320  cd Users/
+  321  cd Users/Reabetswe
+  322  cd Reabetswe
+  323  cd desktop
+  324  mkdir git-basic-exercises
+  325  cd git-basic-exercises
+  326  ls -a
+  327  git init
+  328  ls -a
+  329  git status
+  330  touch README.md
+  331  q
+  332  git status
+  333  git add README.md
+  334  git status
+  335  git commit-m "initial commit"
+  336  git commit -m "initial commit"
+  337  git log
+  338  nano README.md
+  339  cat README.md 
+  340  git status 
+  341  git commit -m "second commit"
+  342  git add README.md
+  343  git commit -m "second commit"
+  344  nano README.md 
+  345  git status 
+  346  git add README.md
+  347  git commit -m "third commit"
+  348  git log
+  349  git checkout 7bdc15bae26a27e36a335acd708f46d08b607f13
+  350  cat README.md 
+  351  git checkout master 
+  352  cat README.md 
+  353  git branch
+  354  git branch milkshake-flavours
+  355  git branch
+  356  git checkout milkshake-flavours 
+  357  git branch
+  358  nano milkshakes.md
+  359  git status 
+  360  git add milkshakes.md 
+  361  git commit -m "added initial flavours"
+  362  git log
+  363  git master
+  364  git checkout master
+  365  git log
+  366  git branch history
+  367  git checkout history 
+  368  git log
+  369  git branch 
+  370  history > history.txt
